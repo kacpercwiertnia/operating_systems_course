@@ -4,108 +4,108 @@ RESULTS OF STATIC LIBRARY:
 
 RUNNING: init 5
 RUN TIMES:
-REAL: 7000ms
+REAL: 7000ns
 USER: 0ticks
 SYSTEM: 0ticks
 
 RUNNING: count wclibrary.c
 RUN TIMES:
-REAL: 25958000ms
+REAL: 25958000ns
 USER: 0ticks
 SYSTEM: 1ticks
 
 RUNNING: count wclibrary.h
 RUN TIMES:
-REAL: 10915000ms
+REAL: 10915000ns
 USER: 0ticks
 SYSTEM: 1ticks
 
 RUNNING: count wclibrarydll.h
 RUN TIMES:
-REAL: 9991000ms
+REAL: 9991000ns
 USER: 1ticks
 SYSTEM: 2ticks
 
 RUNNING: count wcrepl.c
 RUN TIMES:
-REAL: 8901000ms
+REAL: 8901000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: count Makefile
 RUN TIMES:
-REAL: 7899000ms
+REAL: 7899000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: show 0
       67     165 wclibrary.c
 RUN TIMES:
-REAL: 2000ms
+REAL: 2000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: show 1
       21      54 wclibrary.h
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: show 2
       15      28 wclibrarydll.h
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: show 3
      148     363 wcrepl.c
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: show 4
       50     193 Makefile
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: delete 0
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: delete 1
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: delete 2
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: delete 3
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: delete 4
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: destroy
 RUN TIMES:
-REAL: 2000ms
+REAL: 2000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
@@ -113,108 +113,108 @@ RESULTS OF SHARED LIBRARY:
 
 RUNNING: init 5
 RUN TIMES:
-REAL: 36000ms
+REAL: 36000ns
 USER: 0ticks
 SYSTEM: 0ticks
 
 RUNNING: count wclibrary.c
 RUN TIMES:
-REAL: 15412000ms
+REAL: 15412000ns
 USER: 0ticks
 SYSTEM: 0ticks
 
 RUNNING: count wclibrary.h
 RUN TIMES:
-REAL: -983160000ms
+REAL: -983160000ns
 USER: 0ticks
 SYSTEM: 1ticks
 
 RUNNING: count wclibrarydll.h
 RUN TIMES:
-REAL: 13619000ms
+REAL: 13619000ns
 USER: 1ticks
 SYSTEM: 2ticks
 
 RUNNING: count wcrepl.c
 RUN TIMES:
-REAL: 11426000ms
+REAL: 11426000ns
 USER: 1ticks
 SYSTEM: 2ticks
 
 RUNNING: count Makefile
 RUN TIMES:
-REAL: 8302000ms
+REAL: 8302000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: show 0
       67     165 wclibrary.c
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: show 1
       21      54 wclibrary.h
 RUN TIMES:
-REAL: 2000ms
+REAL: 2000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: show 2
       15      28 wclibrarydll.h
 RUN TIMES:
-REAL: 0ms
+REAL: 0ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: show 3
      148     363 wcrepl.c
 RUN TIMES:
-REAL: 0ms
+REAL: 0ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: show 4
       50     193 Makefile
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: delete 0
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: delete 1
 RUN TIMES:
-REAL: 2000ms
+REAL: 2000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: delete 2
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: delete 3
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: delete 4
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
 RUNNING: destroy
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 1ticks
 SYSTEM: 3ticks
 
@@ -222,107 +222,107 @@ RESULTS OF DLL LIBRARY:
 
 RUNNING: init 5
 RUN TIMES:
-REAL: 7000ms
+REAL: 7000ns
 USER: 0ticks
 SYSTEM: 0ticks
 
 RUNNING: count wclibrary.c
 RUN TIMES:
-REAL: 7383000ms
+REAL: 7383000ns
 USER: 0ticks
 SYSTEM: 0ticks
 
 RUNNING: count wclibrary.h
 RUN TIMES:
-REAL: 5896000ms
+REAL: 5896000ns
 USER: 0ticks
 SYSTEM: 0ticks
 
 RUNNING: count wclibrarydll.h
 RUN TIMES:
-REAL: 5971000ms
+REAL: 5971000ns
 USER: 0ticks
 SYSTEM: 1ticks
 
 RUNNING: count wcrepl.c
 RUN TIMES:
-REAL: 5549000ms
+REAL: 5549000ns
 USER: 0ticks
 SYSTEM: 1ticks
 
 RUNNING: count Makefile
 RUN TIMES:
-REAL: 5547000ms
+REAL: 5547000ns
 USER: 0ticks
 SYSTEM: 1ticks
 
 RUNNING: show 0
       67     165 wclibrary.c
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 0ticks
 SYSTEM: 1ticks
 
 RUNNING: show 1
       21      54 wclibrary.h
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 0ticks
 SYSTEM: 1ticks
 
 RUNNING: show 2
       15      28 wclibrarydll.h
 RUN TIMES:
-REAL: 0ms
+REAL: 0ns
 USER: 0ticks
 SYSTEM: 1ticks
 
 RUNNING: show 3
      148     363 wcrepl.c
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 0ticks
 SYSTEM: 1ticks
 
 RUNNING: show 4
       50     193 Makefile
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 0ticks
 SYSTEM: 1ticks
 
 RUNNING: delete 0
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 0ticks
 SYSTEM: 1ticks
 
 RUNNING: delete 1
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 0ticks
 SYSTEM: 1ticks
 
 RUNNING: delete 2
 RUN TIMES:
-REAL: 0ms
+REAL: 0ns
 USER: 0ticks
 SYSTEM: 1ticks
 
 RUNNING: delete 3
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 0ticks
 SYSTEM: 1ticks
 
 RUNNING: delete 4
 RUN TIMES:
-REAL: 0ms
+REAL: 0ns
 USER: 0ticks
 SYSTEM: 1ticks
 
 RUNNING: destroy
 RUN TIMES:
-REAL: 1000ms
+REAL: 1000ns
 USER: 0ticks
 SYSTEM: 1ticks

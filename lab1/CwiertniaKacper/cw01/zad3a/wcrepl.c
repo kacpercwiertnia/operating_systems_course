@@ -61,7 +61,7 @@ int main(){
                 clock_gettime(CLOCK_REALTIME, &time_end);
                 times(&tms_end);
 
-                printf("RUN TIMES:\nREAL: %ldms\nUSER: %ldticks\nSYSTEM: %ldticks\n\n", time_end.tv_nsec - time_start.tv_nsec, tms_end.tms_cutime - tms_start.tms_utime, tms_end.tms_cstime - tms_start.tms_stime);
+                printf("RUN TIMES:\nREAL: %ldns\nUSER: %ldticks\nSYSTEM: %ldticks\n\n", time_end.tv_nsec - time_start.tv_nsec, tms_end.tms_cutime - tms_start.tms_utime, tms_end.tms_cstime - tms_start.tms_stime);
             }
         }
         else if(strcmp(check_5, "count") == 0){
@@ -79,7 +79,7 @@ int main(){
                 clock_gettime(CLOCK_REALTIME, &time_end);
                 times(&tms_end);
 
-                printf("RUN TIMES:\nREAL: %ldms\nUSER: %ldticks\nSYSTEM: %ldticks\n\n", time_end.tv_nsec - time_start.tv_nsec, tms_end.tms_cutime - tms_start.tms_utime, tms_end.tms_cstime - tms_start.tms_stime);
+                printf("RUN TIMES:\nREAL: %ldns\nUSER: %ldticks\nSYSTEM: %ldticks\n\n", time_end.tv_nsec - time_start.tv_nsec, tms_end.tms_cutime - tms_start.tms_utime, tms_end.tms_cstime - tms_start.tms_stime);
 
                 free(file_path);
             }
@@ -99,7 +99,7 @@ int main(){
                 clock_gettime(CLOCK_REALTIME, &time_end);
                 times(&tms_end);
 
-                printf("RUN TIMES:\nREAL: %ldms\nUSER: %ldticks\nSYSTEM: %ldticks\n\n", time_end.tv_nsec - time_start.tv_nsec, tms_end.tms_cutime - tms_start.tms_utime, tms_end.tms_cstime - tms_start.tms_stime);
+                printf("RUN TIMES:\nREAL: %ldns\nUSER: %ldticks\nSYSTEM: %ldticks\n\n", time_end.tv_nsec - time_start.tv_nsec, tms_end.tms_cutime - tms_start.tms_utime, tms_end.tms_cstime - tms_start.tms_stime);
             }
         }
         else if(strcmp(check_6, "delete") == 0){
@@ -117,7 +117,7 @@ int main(){
                 clock_gettime(CLOCK_REALTIME, &time_end);
                 times(&tms_end);
 
-                printf("RUN TIMES:\nREAL: %ldms\nUSER: %ldticks\nSYSTEM: %ldticks\n\n", time_end.tv_nsec - time_start.tv_nsec, tms_end.tms_cutime - tms_start.tms_utime, tms_end.tms_cstime - tms_start.tms_stime);
+                printf("RUN TIMES:\nREAL: %ldns\nUSER: %ldticks\nSYSTEM: %ldticks\n\n", time_end.tv_nsec - time_start.tv_nsec, tms_end.tms_cutime - tms_start.tms_utime, tms_end.tms_cstime - tms_start.tms_stime);
             }
         }
         else if(strcmp(check_7, "destroy") == 0){
@@ -135,7 +135,7 @@ int main(){
                 
                 is_ininted = false;
                 removed = true;
-                printf("RUN TIMES:\nREAL: %ldms\nUSER: %ldticks\nSYSTEM: %ldticks\n\n", time_end.tv_nsec - time_start.tv_nsec, tms_end.tms_cutime - tms_start.tms_utime, tms_end.tms_cstime - tms_start.tms_stime);
+                printf("RUN TIMES:\nREAL: %ldns\nUSER: %ldticks\nSYSTEM: %ldticks\n\n", time_end.tv_nsec - time_start.tv_nsec, tms_end.tms_cutime - tms_start.tms_utime, tms_end.tms_cstime - tms_start.tms_stime);
             }
         }
         else{
