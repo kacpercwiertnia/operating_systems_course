@@ -1,0 +1,11 @@
+RUNNING USING fread() AND fwrite()
+RUN TIMES:
+REAL: 9000ns
+USER: 0ticks
+SYSTEM: 0ticks
+
+RUNNING USING read() AND write()
+RUN TIMES:
+REAL: 32000ns
+USER: 0ticks
+SYSTEM: 0ticks
